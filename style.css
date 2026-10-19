@@ -10,3 +10,10 @@
 
 .arrow-icon{width:1em;height:1em;display:inline-block;vertical-align:-.1em;flex-shrink:0}.course-icon .arrow-icon{width:23px;height:23px}.floating-tag .arrow-icon{width:19px;height:19px}.principles-strip b .arrow-icon{width:21px;height:21px}
 @media(max-width:580px){.hero-art{overflow:clip}}
+
+/* Présentation vidéo : lecteur natif responsive, sans lecture automatique. */
+.video-heading{max-width:680px;margin-bottom:24px}
+.video-heading h2{font-size:clamp(25px,3vw,36px);margin-bottom:12px}
+.video-heading p{font-size:13px;margin-bottom:0}
+.presentation-video{display:block;width:100%;height:auto;aspect-ratio:107/60;object-fit:contain;background:#111329;border:1px solid var(--line);border-radius:16px}
+.presentation-video:focus-visible{outline:3px solid var(--blue);outline-offset:5px}
